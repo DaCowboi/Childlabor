@@ -1,0 +1,65 @@
+body {
+  background-image: url(icons/bar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  width: 800px;
+  background-color: white;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  text-align: center;
+}
+.B {
+  display: inline-block;
+}
+* {
+  box-sizing: border-box;
+}
+input,
+select,
+textarea {
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000;
+  border: 2px solid #1abc9c;
+  box-sizing: border-box;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: 15px;
+}
+input::placeholder {
+  color: #000;
+}
+h1 {
+  color: purple;
+  margin: 0;
+  margin-bottom: 20px;
+}
+legend {
+  text-align: left;
+  color: #1abc9c;
+}
+fieldset {
+  border-color: #1abc9c;
+}
+input[type="submit"] {
+  color: #fff;
+  background-color: #16a085;
+  margin-top: 25px;
+}
+input[type="submit"]:hover {
+  color: #16a085;
+  background-color: #fff;
+  cursor: pointer;
+}
